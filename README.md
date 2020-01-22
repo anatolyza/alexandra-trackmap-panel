@@ -2,6 +2,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fanatolyza%2Falexandra-trackmap-panel.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fanatolyza%2Falexandra-trackmap-panel?ref=badge_shield)
 
 > Map plugin to visualize timeseries data from geo:json or NGSIv2 sources as either a Ant-path, Hexbin, or Heatmap.
 
@@ -152,3 +153,6 @@ This plugin was developed as part of the the [SynchroniCity Project](https://syn
 ## License
 
 [MIT © Alexandra Institute.](./LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fanatolyza%2Falexandra-trackmap-panel.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fanatolyza%2Falexandra-trackmap-panel?ref=badge_large)
