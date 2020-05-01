@@ -4,7 +4,9 @@
   "description": "Map plugin using Leaflet and OpenSteetMap to visualize coordinates or geo:json as either a Ant-path, Hexbin, or Heatmap.",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack --config webpack.dev.js"
+    "dev": "webpack --config webpack.dev.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Alexandra Institute",
   "license": "MIT",
@@ -28,10 +30,12 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "leaflet": "^1.6.0"
+    "leaflet": "^1.6.0",
+    "snyk": "^1.316.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexandrainst/alexandra-trackmap-panel"
-  }
+  },
+  "snyk": true
 }
